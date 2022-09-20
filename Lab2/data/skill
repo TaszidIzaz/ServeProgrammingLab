@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Adobe Photoshop",
+        "rate": "90%"
+    },
+    "2": {
+        "name": "Photography",
+        "rate": "80%"
+    },
+    "3": {
+        "name": "Illustrator",
+        "rate": "75%"
+    }
+}
