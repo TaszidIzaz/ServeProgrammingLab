@@ -14,7 +14,7 @@ const getCV = (req, res) => {
   skill = JSON.parse(String(skill));
 
   edus = [];
-  exp = [];
+  ex = [];
   lang = [];
   sk = [];
 
@@ -23,7 +23,7 @@ const getCV = (req, res) => {
   }
 
   for (let key in experience) {
-    exp.push(experience[key]);
+    ex.push(experience[key]);
   }
 
   for (let key in language) {
@@ -34,7 +34,7 @@ const getCV = (req, res) => {
     sk.push(skill[key]);
   }
 
-  res.render("cv", { name: "Taszid Izaz", educations: edus , experience : exp , language : lang , skill : sk });
+  res.render("cv", { name: "Taszid Izaz", educations: edus , experience : ex , language : lang , skill : sk });
 };
 
 module.exports = { getCV: getCV };
